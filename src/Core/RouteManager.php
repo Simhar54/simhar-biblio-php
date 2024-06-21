@@ -1,5 +1,7 @@
 <?php
 
+namespace Core;
+
 /**
  * Classe pour gérer les routes de l'application.
  * Stocke les routes et fournit une fonction pour trouver une action basée sur l'URL.
