@@ -1,6 +1,6 @@
 <?php
 
-namespace Core;
+namespace App\Core;
 
 /**
  * Classe pour gérer les routes de l'application.

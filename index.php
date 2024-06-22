@@ -5,10 +5,13 @@ session_start();
 
 
 
-use Core\RouteManager;
-use Core\Router;
+use App\Core\RouteManager;
+use App\Core\Router;
+use App\Controllers\Home\HomeController;
 
 $routeManager = new RouteManager();
+
+$routeManager->addRoute('/', [new HomeController(), 'index']);
 // Ajoutez vos routes ici
 // $routeManager->addRoute('chemin', 'NomDeLaFonction');
 

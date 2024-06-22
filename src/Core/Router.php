@@ -1,8 +1,8 @@
 <?php
 
-namespace Core;
+namespace App\Core;
 
-use Core\RouteManager;
+use App\Core\RouteManager;
 /**
  * Classe Router pour gérer la logique de routage.
  * Utilise RouteManager pour trouver l'action appropriée basée sur l'URL demandée.

@@ -2,7 +2,7 @@
     "name": "jusam/gestionnaire-de-tache-poo",
     "autoload": {
         "psr-4": {
-            "Core\\": "src/Core/"
+            "App\\": "src/"
         }
     },
     "authors": [
