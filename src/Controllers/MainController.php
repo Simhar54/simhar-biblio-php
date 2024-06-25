@@ -21,7 +21,7 @@ class MainController {
         
         try {
             // Vérifie si le fichier de vue existe avant de l'inclure
-            $filePath = "src/views/$viewName.php";
+            $filePath = "src/Views/$viewName.php";
             if (!file_exists($filePath)) {
                 throw new \Exception("Le fichier de vue $filePath n'existe pas.");
             }

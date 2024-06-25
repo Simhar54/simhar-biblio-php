@@ -7,6 +7,6 @@ class HomeController extends MainController
 {
     public function index()
     {
-        $this->render('home/index');
+        $this->render('Home/index');
     }
 }
