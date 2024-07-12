@@ -1,5 +1,5 @@
 {
-    "name": "jusam/gestionnaire-de-tache-poo",
+    "name": "jusam54/gestionnaire-de-tache-poo",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
